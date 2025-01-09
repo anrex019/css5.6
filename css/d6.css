@@ -297,9 +297,9 @@ h2 {
 
 .Last__Part {
     display: flex;
-    max-width: 1024px;
+   justify-content: center;
     width: 100%;
-    margin: 0 auto;
+    
     margin-top: 96px;
 }
 
@@ -337,12 +337,7 @@ h3 {
 
 .girltext {
     color: #FFF;
-    font-family: Inter;
     font-size: 36px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 44px;
-    /* 122.222% */
 }
 
 .chick {
@@ -378,12 +373,12 @@ h3 {
     align-self: flex-start;
 }
 
-footer {
-    padding: 24px 0px;
-    max-width: 1024px;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 96px;
+Footer {
+    display: flex;
+    margin-top: 75px;
+    padding: 24px 208px;
+    flex-direction: column;
+   
 }
 
 .logo {
@@ -400,12 +395,7 @@ footer {
 
 .Branding {
     color: #000;
-    font-family: Inter;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 24px;
-    /* 150% */
 }
 
 .navig {
