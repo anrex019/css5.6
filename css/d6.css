@@ -27,6 +27,7 @@
     gap: 32px;
 }
 
+
 .Brandingtext {
     color: #000;
     font-size: 16px;
@@ -142,6 +143,8 @@
     border-radius: 10px;
     border: 1px solid #D5D7DA;
     background: #FFF;
+    width: 131px;
+
 }
 
 .sign {
@@ -153,8 +156,268 @@
     border-radius: var(--radius-lg, 10px);
     background: #7F56D9;
     color: #FFFFFF;
+    width: 114px;
 }
 
 .button {
     display: flex;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    margin: 96px;
+
+}
+
+.Second__Container {
+    margin: 96px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.First__Content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.Features {
+    color: #6941C6;
+    font-weight: 600;
+}
+
+h2 {
+    color: #181D27;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.powerful {
+    font-size: 20px;
+    color: #535862;
+    text-align: center;
+    line-height: 30px;
+}
+
+.something {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    max-width: 1024px;
+    width: 100%;
+}
+
+.boxOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 24px;
+    max-width: 320px;
+    width: 100%;
+    padding-left: 0px;
+}
+
+.paragraphOne {
+    text-align: center;
+    width: 272px;
+    font-size: 14px;
+}
+
+.horizontal {
+    width: 1px;
+    height: 114px;
+    background-color: #535862;
+}
+
+.plans {
+    display: flex;
+    gap: 32px;
+    max-width: 1024px;
+    width: 100%;
+}
+
+.First__Plan {
+    max-width: 496px;
+    width: 100%;
+    border: 1px solid #E9EAEB;
+    border-radius: 16px;
+}
+
+.start {
+    padding: 32px 32px 0px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.pic {
+    background-color: #F4EBFF;
+    padding: 12px;
+    border-radius: 24px;
+}
+
+.mid {
+    padding: 32px 32px 40px 32px;
+    max-width: 496px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 16px;
+}
+
+.stuff {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.foot {
+    padding: 32px;
+}
+
+.get__Started {
+    padding: 12px 18px;
+    max-width: 432px;
+    width: 100%;
+    background-color: #7F56D9;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+}
+
+.Last__Part {
+    display: flex;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 96px;
+}
+
+.blue__Container {
+    max-width: 544px;
+    width: 100%;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    background-color: #53389E;
+    border-radius: 24px 0px 0px 24px;
+    color: white;
+}
+
+.chat {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+}
+
+h3 {
+    max-width: 390px;
+    color: #181D27;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 44px;
+}
+
+.girltext {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    /* 122.222% */
+}
+
+.chick {
+    border-radius: 0px 24px 24px 0px;
+}
+
+.littleEnd {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.lineAndText {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.lilWhiteLine {
+    width: 19px;
+    height: 1px;
+    background-color: white;
+}
+
+.product {
+    color: #E9D7FE;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.dots {
+    align-self: flex-start;
+}
+
+footer {
+    padding: 24px 0px;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 96px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Branding {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px;
+    /* 150% */
+}
+
+.navig {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.copyP {
+    color: #717680;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
